@@ -1,12 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <title>Melp</title>
+        <style>
+            .header {
+                width: 100vw;
+                height: 100px;
+                color: blueviolet;
+            }
+            .main {
+                width: 100vw;
+                height: 100vh;
+                background-color: rgb(240, 239, 172);
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .footer {
+                width: 100vw;
+                height: 100px;
+                color: blueviolet;
+            }
+            body {
+                margin: 0px;
+            }
+            input {
+                height: 75px;
+                width: 72vw;
+                font-size: 43px;
+                outline: 0px;
+                border-radius: 0px;
+                border: 0px;
+            }
+            .button {
+                height: 77px;
+                width: 7vw;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+            }
+            .button img {
+                width: 45px;
+            }
+            .input-holder {
+                display: flex;
+                justify-content: center;
+                margin-top: 45px;
+            }
+            .picture-holder {
+                margin-top: 30px;
+                width: 79vw;
+                height: 500px;
+                background-color: white;
+                align-self: center;
+            }
+            .button-holder {
+                margin-top: 35px;
+                width: 79vw;
+                align-self: center;
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+            }
+            .button-holder .button {
+                height: 105px;
+                width: 105px;
+                border-radius: 10px;
+                margin: 0px;
+                border: 1px solid rgb(199, 199, 199);
+            }
+            .button-holder .button:hover {
+                border: rgb(64, 187, 228) 1px solid;
+                box-shadow: rgb(117, 117, 117);
+            }
+            .button-holder .button img {
+                width: 80px
+            }
+            .main-holder {
+                margin-top: 35px;
+                width: 79vw;
+                align-self: center;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .card {
+                height: 30vw;
+                width: 30vw;
+                background-color: white;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header"></div>
+        <div class="main">
+            <div class="input-holder">
+                <input type="text">
+                <a href="" class="button">
+                    <img src="search.svg" alt="search">
+                </a>
+            </div>
+            <div class="picture-holder">
+
+            </div>
+            <div class="button-holder">
+                <a href="" class="button">
+                    <img src="cutlery.svg" alt="search">
+                </a>
+                <a href="" class="button">
+                    <img src="hospital.svg" alt="search">
+                </a>
+                <a href="" class="button">
+                    <img src="food.svg" alt="search">
+                </a>
+                <a href="" class="button">
+                    <img src="shopping-cart.svg" alt="search">
+                </a>
+                <a href="" class="button">
+                    <img src="exercise.svg" alt="search">
+                </a>
+                <a href="" class="button">
+                    <img src="cinema.svg" alt="search">
+                </a>
+            </div>
+            <div class="main-holder">
+                <div class="card">
+
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </body>
 </html>
