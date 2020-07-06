@@ -2,97 +2,14 @@
 <html>
     <head>
         <title>Melp</title>
-        <style>
-            .header {
-                width: 100vw;
-                height: 100px;
-                color: blueviolet;
-            }
-            .main {
-                width: 100vw;
-                height: 100vh;
-                background-color: rgb(240, 239, 172);
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
-            }
-            .footer {
-                width: 100vw;
-                height: 100px;
-                color: blueviolet;
-            }
-            body {
-                margin: 0px;
-            }
-            input {
-                height: 75px;
-                width: 72vw;
-                font-size: 43px;
-                outline: 0px;
-                border-radius: 0px;
-                border: 0px;
-            }
-            .button {
-                height: 77px;
-                width: 7vw;
-                background-color: white;
-                display: flex;
-                justify-content: center;
-            }
-            .button img {
-                width: 45px;
-            }
-            .input-holder {
-                display: flex;
-                justify-content: center;
-                margin-top: 45px;
-            }
-            .picture-holder {
-                margin-top: 30px;
-                width: 79vw;
-                height: 500px;
-                background-color: white;
-                align-self: center;
-            }
-            .button-holder {
-                margin-top: 35px;
-                width: 79vw;
-                align-self: center;
-                display: flex;
-                justify-content: center;
-                justify-content: space-between;
-            }
-            .button-holder .button {
-                height: 105px;
-                width: 105px;
-                border-radius: 10px;
-                margin: 0px;
-                border: 1px solid rgb(199, 199, 199);
-            }
-            .button-holder .button:hover {
-                border: rgb(64, 187, 228) 1px solid;
-                box-shadow: rgb(117, 117, 117);
-            }
-            .button-holder .button img {
-                width: 80px
-            }
-            .main-holder {
-                margin-top: 35px;
-                width: 79vw;
-                align-self: center;
-                display: flex;
-                flex-wrap: wrap;
-            }
-            .card {
-                height: 30vw;
-                width: 30vw;
-                background-color: white;
-                border-radius: 10px;
-            }
-        </style>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="header"></div>
+        <div class="header">
+            <button>sign in</button>
+            <button>login</button>
+        </div>
         <div class="main">
             <div class="input-holder">
                 <input type="text">
@@ -125,10 +42,44 @@
             </div>
             <div class="main-holder">
                 <div class="card">
-
+                    <div class="rate">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                    </div>
+                    <div class="comment-holder">
+                        <img class="comment" src="comment.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="rate">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                    </div>
+                    <div class="comment-holder">
+                        <img class="comment" src="comment.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="rate">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                        <img class="star" src="star.svg" alt="">
+                    </div>
+                    <div class="comment-holder">
+                        <img class="comment" src="comment.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="footer"></div>
     </body>
+    <script src="index.js"></script>
 </html>

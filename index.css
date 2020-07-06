@@ -1,12 +1,24 @@
 .header {
     width: 100vw;
-    height: 100px;
-    color: blueviolet;
+    height: 80px;
+    background-color: #52ACAA;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
+.header button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
 .main {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(240, 239, 172);
+    padding-left: 10vw;
+    padding-right: 10vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -20,67 +32,200 @@ body {
     margin: 0px;
 }
 input {
-    height: 75px;
-    width: 72vw;
+    height: 30px;
+    width: 100%;
     font-size: 43px;
     outline: 0px;
     border-radius: 0px;
-    border: 0px;
+    border: rgb(117, 117, 117) solid 1px;
+    border-right: none;
 }
 .button {
-    height: 77px;
+    
     width: 7vw;
     background-color: white;
     display: flex;
     justify-content: center;
+    border: rgb(117, 117, 117) solid 1px;
 }
 .button img {
-    width: 45px;
+    width: 30%;
 }
 .input-holder {
     display: flex;
     justify-content: center;
     margin-top: 45px;
+    height: 20%;
 }
+
+
 .picture-holder {
     margin-top: 30px;
-    width: 79vw;
+    width: 100%;
     height: 500px;
     background-color: white;
     align-self: center;
+    border: rgb(117, 117, 117) solid 1px;
 }
+
 .button-holder {
+    height: 90%;
+    overflow-x: scroll;
     margin-top: 35px;
-    width: 79vw;
+    width: 100%;
     align-self: center;
     display: flex;
-    justify-content: center;
+    
     justify-content: space-between;
 }
+
 .button-holder .button {
-    height: 105px;
-    width: 105px;
+    height: 140px;
+    width: 15%;
     border-radius: 10px;
     margin: 0px;
     border: 1px solid rgb(199, 199, 199);
 }
+
 .button-holder .button:hover {
     border: rgb(64, 187, 228) 1px solid;
     box-shadow: rgb(117, 117, 117);
 }
+
 .button-holder .button img {
-    width: 80px
+    width: 50%;
 }
+
 .main-holder {
     margin-top: 35px;
-    width: 79vw;
+    width: 100%;
+    height: 100%;
     align-self: center;
     display: flex;
     flex-wrap: wrap;
-}
+    justify-content: space-between;
+}   
 .card {
-    height: 30vw;
-    width: 30vw;
-    background-color: white;
-    border-radius: 10px;
+    height: 150px;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media  screen and (min-width: 799px) {
+    input{
+        height: 50px;
+    }
+    .card {
+        height: 300px;
+        width: 40%;
+        background-color: blue;
+        border-radius: 10px;
+        border: rgb(117, 117, 117) solid 1px;
+        box-shadow: rgb(117, 117, 117);
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+    }
+    .rate {
+        height: 25%;
+        width: 100%;
+        background-color: rgb(117, 117, 117);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .comment-holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #807DFF;
+        width: 20%;
+        height: 25%;
+        justify-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .header{
+        height: 50px;
+    }
+    .header button {
+        width: 70px;
+        height: 20px;
+        border: none;
+        border-radius: 50px;
+        font-size: 10px;
+        margin-right: 20px;
+    }
+    .picture-holder{
+        height: 200px;
+    }
+    .button-holder .button{
+        height: 55px;
+    }
+    .card {
+        
+        width: 45%;
+        background-color: white;
+        border-radius: 10px;
+        border: rgb(117, 117, 117) solid 1px;
+        box-shadow: rgb(117, 117, 117);
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    .rate {
+        height: 25%;
+        width: 80%;
+        background-color: rgb(117, 117, 117);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .comment-holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #807DFF;
+        width: 20%;
+        height: 25%;
+        justify-self: flex-end;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .card {
+        width: 25%;
+        background-color: white;
+        border-radius: 10px;
+        border: rgb(117, 117, 117) solid 1px;
+        box-shadow: rgb(117, 117, 117);
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+    }
+    .rate {
+        height: 15%;
+        width: 100%;
+        background-color: rgb(117, 117, 117);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .comment-holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #807DFF;
+        width: 20%;
+        height: 15%;
+        justify-self: flex-end;
+    }
+}
+
+.star {
+    height: 50%;
+}
+
+.comment {
+    width: 50%;
 }
