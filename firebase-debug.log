@@ -1,21 +1,33 @@
-[debug] [2020-07-07T04:09:58.674Z] ----------------------------------------------------------------------
-[debug] [2020-07-07T04:09:58.676Z] Command:       /usr/local/lib/node_modules/firebase-tools/lib/bin/firebase.js /Users/Buyanaa/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
-[debug] [2020-07-07T04:09:58.676Z] CLI Version:   8.4.1
-[debug] [2020-07-07T04:09:58.677Z] Platform:      darwin
-[debug] [2020-07-07T04:09:58.677Z] Node Version:  v12.16.1
-[debug] [2020-07-07T04:09:58.707Z] Time:          Tue Jul 07 2020 12:09:58 GMT+0800 (Ulaanbaatar Standard Time)
-[debug] [2020-07-07T04:09:58.707Z] ----------------------------------------------------------------------
-[debug] [2020-07-07T04:09:58.707Z] 
-[debug] [2020-07-07T04:09:58.782Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-07-07T04:09:58.782Z] > authorizing via signed-in user
+[debug] [2020-07-07T05:08:52.616Z] ----------------------------------------------------------------------
+[debug] [2020-07-07T05:08:52.618Z] Command:       /usr/local/lib/node_modules/firebase-tools/lib/bin/firebase.js /Users/Buyanaa/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve
+[debug] [2020-07-07T05:08:52.618Z] CLI Version:   8.4.1
+[debug] [2020-07-07T05:08:52.618Z] Platform:      darwin
+[debug] [2020-07-07T05:08:52.618Z] Node Version:  v12.16.1
+[debug] [2020-07-07T05:08:52.619Z] Time:          Tue Jul 07 2020 13:08:52 GMT+0800 (Ulaanbaatar Standard Time)
+[debug] [2020-07-07T05:08:52.619Z] ----------------------------------------------------------------------
+[debug] [2020-07-07T05:08:52.619Z] 
+[debug] [2020-07-07T05:08:52.627Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-07T05:08:52.627Z] > authorizing via signed-in user
+[debug] [2020-07-07T05:08:52.627Z] [iam] checking project melp-64cd9 for permissions ["firebase.projects.get"]
+[debug] [2020-07-07T05:08:52.630Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/melp-64cd9:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-07-07T05:08:53.852Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 07 Jul 2020 05:08:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=825","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-07T05:08:53.853Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/melp-64cd9  
+ 
+[debug] [2020-07-07T05:08:54.566Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 07 Jul 2020 05:08:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
 [info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  /Users/Buyanaa/Desktop/Melp
-
+[info] === Serving from '/Users/Buyanaa/Desktop/Melp'...
+[info] 
+[debug] [2020-07-07T05:08:54.568Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/melp-64cd9/webApps/-/config  
+ 
+[debug] [2020-07-07T05:08:56.000Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 07 Jul 2020 05:08:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [07/Jul/2020:05:09:23 +0000] "GET / HTTP/1.1" 200 3510 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jul/2020:05:09:23 +0000] \"GET / HTTP/1.1\" 200 3510 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jul/2020:05:09:23 +0000] "GET /__/firebase/init.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jul/2020:05:09:23 +0000] \"GET /__/firebase/init.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jul/2020:05:09:24 +0000] "GET /__/firebase/7.15.5/firebase-app.js HTTP/1.1" 200 19920 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jul/2020:05:09:24 +0000] \"GET /__/firebase/7.15.5/firebase-app.js HTTP/1.1\" 200 19920 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jul/2020:05:09:24 +0000] "GET /__/firebase/7.15.5/firebase-storage.js HTTP/1.1" 200 40851 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jul/2020:05:09:24 +0000] \"GET /__/firebase/7.15.5/firebase-storage.js HTTP/1.1\" 200 40851 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jul/2020:05:09:24 +0000] "GET /__/firebase/7.15.5/firebase-messaging.js HTTP/1.1" 200 39118 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jul/2020:05:09:24 +0000] \"GET /__/firebase/7.15.5/firebase-messaging.js HTTP/1.1\" 200 39118 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jul/2020:05:09:25 +0000] "GET /__/firebase/7.15.5/firebase-database.js HTTP/1.1" 200 187119 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jul/2020:05:09:25 +0000] \"GET /__/firebase/7.15.5/firebase-database.js HTTP/1.1\" 200 187119 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jul/2020:05:09:25 +0000] "GET /__/firebase/7.15.5/firebase-auth.js HTTP/1.1" 200 173469 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jul/2020:05:09:25 +0000] \"GET /__/firebase/7.15.5/firebase-auth.js HTTP/1.1\" 200 173469 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [07/Jul/2020:05:09:25 +0000] "GET /favicon.ico HTTP/1.1" 404 1808 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [07/Jul/2020:05:09:25 +0000] \"GET /favicon.ico HTTP/1.1\" 404 1808 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36\""}}

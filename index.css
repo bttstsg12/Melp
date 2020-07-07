@@ -3,8 +3,8 @@
     height: 80px;
     background-color: #52ACAA;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: center;
 }
 
 .header button {
@@ -33,7 +33,7 @@ body {
 }
 input {
     height: 30px;
-    width: 100%;
+    width: 71%;
     font-size: 43px;
     outline: 0px;
     border-radius: 0px;
@@ -41,22 +41,18 @@ input {
     border-right: none;
 }
 .button {
-    
-    width: 7vw;
+    width: 4%;
+    height: 65%;
     background-color: white;
     display: flex;
     justify-content: center;
     border: rgb(117, 117, 117) solid 1px;
+    border-left: none;
 }
 .button img {
     width: 30%;
 }
-.input-holder {
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
-    height: 20%;
-}
+
 
 
 .picture-holder {
@@ -224,6 +220,7 @@ input {
 
 .star {
     height: 50%;
+    cursor:pointer;
 }
 
 .comment {
