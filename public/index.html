@@ -10,8 +10,8 @@
 <body>
     <div class="header">
 
-        <input type="text">
-        
+        <input class="search" type="text">
+
         <a href="" class="button">
             <img src="search.svg" alt="search">
         </a>
@@ -44,17 +44,17 @@
                 <img src="cinema.svg" alt="search">
             </a>
         </div>
-        <div class="main-holder">
-            <div class="card">
-                <div class="rate">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
+        <div id="main-holder" class="main-holder">
+            <div id="card" class="card">
+                <div id="rate" class="rate">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
                 </div>
                 <div class="comment-holder">
-                    <img class="comment" src="comment.svg" alt="">
+                    <img onclick="comment()" class="comment" src="comment.svg" alt="">
                 </div>
             </div>
             <div class="card">
@@ -91,17 +91,17 @@
 <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
 
 <script>
-  var firebaseConfig = {
-    apiKey: "AIzaSyAcTktRSOhUPDe87aIADSZz2Tf7RtU6UtA",
-    authDomain: "melp-64cd9.firebaseapp.com",
-    databaseURL: "https://melp-64cd9.firebaseio.com",
-    projectId: "melp-64cd9",
-    storageBucket: "melp-64cd9.appspot.com",
-    messagingSenderId: "217089908134",
-    appId: "1:217089908134:web:e10a8b37243f972d70c367",
-    measurementId: "G-RGV889T2XP"
-  };
-  firebase.initializeApp(firebaseConfig);
+    var firebaseConfig = {
+        apiKey: "AIzaSyAcTktRSOhUPDe87aIADSZz2Tf7RtU6UtA",
+        authDomain: "melp-64cd9.firebaseapp.com",
+        databaseURL: "https://melp-64cd9.firebaseio.com",
+        projectId: "melp-64cd9",
+        storageBucket: "melp-64cd9.appspot.com",
+        messagingSenderId: "217089908134",
+        appId: "1:217089908134:web:e10a8b37243f972d70c367",
+        measurementId: "G-RGV889T2XP"
+    };
+    firebase.initializeApp(firebaseConfig);
 </script>
 
 </html>

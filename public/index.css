@@ -23,15 +23,18 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .footer {
     width: 100vw;
     height: 100px;
     color: blueviolet;
 }
+
 body {
     margin: 0px;
 }
-input {
+
+.search {
     height: 30px;
     width: 71%;
     font-size: 43px;
@@ -40,20 +43,24 @@ input {
     border: rgb(117, 117, 117) solid 1px;
     border-right: none;
 }
+
+input {
+    font-size: 20px;
+}
+
 .button {
     width: 4%;
-    height: 65%;
+    height: 32px;
     background-color: white;
     display: flex;
     justify-content: center;
     border: rgb(117, 117, 117) solid 1px;
     border-left: none;
 }
+
 .button img {
     width: 30%;
 }
-
-
 
 .picture-holder {
     margin-top: 30px;
@@ -71,7 +78,6 @@ input {
     width: 100%;
     align-self: center;
     display: flex;
-    
     justify-content: space-between;
 }
 
@@ -100,13 +106,18 @@ input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}   
+}
+
 .card {
     height: 150px;
+    display: flex;
 }
+
+
 /* Medium devices (landscape tablets, 768px and up) */
-@media  screen and (min-width: 799px) {
-    input{
+
+@media screen and (min-width: 799px) {
+    input {
         height: 50px;
     }
     .card {
@@ -140,7 +151,7 @@ input {
 }
 
 @media screen and (max-width: 799px) {
-    .header{
+    .header {
         height: 50px;
     }
     .header button {
@@ -151,14 +162,13 @@ input {
         font-size: 10px;
         margin-right: 20px;
     }
-    .picture-holder{
+    .picture-holder {
         height: 200px;
     }
-    .button-holder .button{
+    .button-holder .button {
         height: 55px;
     }
     .card {
-        
         width: 45%;
         background-color: white;
         border-radius: 10px;
@@ -220,7 +230,7 @@ input {
 
 .star {
     height: 50%;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .comment {
