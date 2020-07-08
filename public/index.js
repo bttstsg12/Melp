@@ -9,8 +9,8 @@ const comment = () => {
 };
 const star = () => {
     let img = document.createElement("img");
-    img.src = "star(1).svg";
-    const rate = docuement.getElementById('rate');
+    img.src = "star2.svg";
+    const rate = document.getElementById('rate');
     rate.appendChild(img);
-
+    img.style.height = "50%";
 };
