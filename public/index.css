@@ -1,12 +1,27 @@
 .header {
     width: 100vw;
-    height: 80px;
+    height: 140px;
     background-color: #52ACAA;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
+.review-holder{
+    width: 79vw;
+}
+#review{
+    background-color: white;
+    width: 200px;
+    align-self: flex-start  ;
+}
+.input-holder{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
 .header button {
     width: 100px;
     height: 30px;
@@ -26,8 +41,9 @@
 
 .footer {
     width: 100vw;
-    height: 100px;
-    color: blueviolet;
+    height: 140px;
+    background-color: #52ACAA;
+    margin-top: 30px;
 }
 
 body {
@@ -151,8 +167,14 @@ input {
 }
 
 @media screen and (max-width: 799px) {
+    .input-holder{
+        margin-top: 10px;
+    }
     .header {
-        height: 50px;
+        height: 70px;
+    }
+    .button img{
+        width: 60%;
     }
     .header button {
         width: 70px;

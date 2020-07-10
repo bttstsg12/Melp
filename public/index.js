@@ -14,3 +14,27 @@ const star = () => {
     rate.appendChild(img);
     img.style.height = "50%";
 };
+const rest = () => {
+    window.location.href = "index-2.0.html";
+    console.log("hahah");
+}
+const hospital = () => {
+    window.location.href = "index-2.1.html";
+    console.log("hahah");
+}
+const cafe = () => {
+    window.location.href = "index-2.2.html";
+    console.log("hahah");
+}
+const shop = () => {
+    window.location.href = "index-2.3.html";
+    console.log("hahah");
+}
+const gym = () => {
+    window.location.href = "index-2.4.html";
+    console.log("hahah");
+}
+const cinema = () => {
+    window.location.href = "index-2.5.html";
+    console.log("hahah");
+}

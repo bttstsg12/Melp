@@ -8,16 +8,21 @@
 </head>
 
 <body>
+
     <div class="header">
+        <div class="review-holder">
+            <button id="review">Write review</button>
+        </div>
+        <div class="input-holder">
+            <input class="search" type="text">
 
-        <input class="search" type="text">
-
-        <a href="" class="button">
-            <img src="search.svg" alt="search">
-        </a>
-        <a href="" class="button">
-            <img src="home-run.svg" alt="">
-        </a>
+            <a href="" class="button">
+                <img src="search.svg" alt="search">
+            </a>
+            <a href="" class="button">
+                <img src="home-run.svg" alt="">
+            </a>
+        </div>
     </div>
     <div class="main">
 
@@ -26,22 +31,22 @@
         </div>
         <div class="button-holder">
             <a href="" class="button">
-                <img src="cutlery.svg" alt="search">
+                <img src="cutlery.svg" alt="search" onclick="rest()">
             </a>
             <a href="" class="button">
-                <img src="hospital.svg" alt="search">
+                <img src="hospital.svg" alt="search" onclick="hospital()">
             </a>
             <a href="" class="button">
-                <img src="food.svg" alt="search">
+                <img src="food.svg" alt="search" onclick="cafe()">
             </a>
             <a href="" class="button">
-                <img src="shopping-cart.svg" alt="search">
+                <img src="shopping-cart.svg" alt="search" onclick="shop()">
             </a>
             <a href="" class="button">
-                <img src="exercise.svg" alt="search">
+                <img src="exercise.svg" alt="search" onclick="gym()">
             </a>
             <a href="" class="button">
-                <img src="cinema.svg" alt="search">
+                <img src="cinema.svg" alt="search" onclick="cinema()">
             </a>
         </div>
         <div id="main-holder" class="main-holder">
@@ -59,11 +64,11 @@
             </div>
             <div class="card">
                 <div class="rate">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
                 </div>
                 <div class="comment-holder">
                     <img class="comment" src="comment.svg" alt="">
@@ -71,11 +76,11 @@
             </div>
             <div class="card">
                 <div id="rate" class="rate">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
-                    <img class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
                 </div>
                 <div class="comment-holder">
                     <img class="comment" src="comment.svg" alt="">
