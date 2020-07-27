@@ -7,21 +7,25 @@
     align-items: center;
     justify-content: center;
 }
-.review-holder{
+
+.review-holder {
     width: 79vw;
 }
-#review{
+
+#review {
     background-color: white;
     width: 200px;
-    align-self: flex-start  ;
+    align-self: flex-start;
 }
-.input-holder{
+
+.input-holder {
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
 }
+
 .header button {
     width: 100px;
     height: 30px;
@@ -154,6 +158,7 @@ input {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        flex-direction: row-reverse;
     }
     .comment-holder {
         display: flex;
@@ -167,13 +172,13 @@ input {
 }
 
 @media screen and (max-width: 799px) {
-    .input-holder{
+    .input-holder {
         margin-top: 10px;
     }
     .header {
         height: 70px;
     }
-    .button img{
+    .button img {
         width: 60%;
     }
     .header button {

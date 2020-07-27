@@ -17,7 +17,7 @@
             <input class="search" type="text">
 
             <a href="" class="button">
-                <img src="search.svg" alt="search">
+                <img onclick="search()" src="search.svg" alt="search">
             </a>
             <a href="" class="button">
                 <img src="home-run.svg" alt="">
@@ -52,11 +52,11 @@
         <div id="main-holder" class="main-holder">
             <div id="card" class="card">
                 <div id="rate" class="rate">
-                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
-                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
-                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
-                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
-                    <img id="star" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onmouseover="checkedStar(this)" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onmouseover="checkedStar(this)" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onmouseover="checkedStar(this)" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onmouseover="checkedStar(this)" onclick="star()" class="star" src="star.svg" alt="">
+                    <img id="star" onmouseover="checkedStar(this)" onclick="star()" class="star" src="star.svg" alt="">
                 </div>
                 <div class="comment-holder">
                     <img onclick="comment()" class="comment" src="comment.svg" alt="">

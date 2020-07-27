@@ -13,28 +13,39 @@ const star = () => {
     const rate = document.getElementById('rate');
     rate.appendChild(img);
     img.style.height = "50%";
+    const star = document.getElementById('star');
+    star.src = "star.svg";
+    img.appendChild(star);
 };
+const checkedStar = () => {
+    let img = document.createElement("img");
+    img.src = "star2.svg";
+    const rate = document.getElementById('rate');
+    rate.appendChild(img);
+    img.style.height = "50%";
+    const star = document.getElementById('star');
+    star.src = "star.svg";
+    img.appendChild(star);
+}
 const rest = () => {
-    window.location.href = "index-2.0.html";
-    console.log("hahah");
+    window.location.href(index - 2.0.html)
 }
 const hospital = () => {
-    window.location.href = "index-2.1.html";
-    console.log("hahah");
+    window.location.href(index - 2.0.html)
 }
 const cafe = () => {
-    window.location.href = "index-2.2.html";
-    console.log("hahah");
+    window.location.href(index - 2.0.html)
 }
 const shop = () => {
-    window.location.href = "index-2.3.html";
-    console.log("hahah");
+    window.location.href(index - 2.0.html)
 }
+
 const gym = () => {
-    window.location.href = "index-2.4.html";
-    console.log("hahah");
+    window.location.href(index - 2.0.html)
 }
 const cinema = () => {
-    window.location.href = "index-2.5.html";
-    console.log("hahah");
+    window.location.href(index - 2.0.html)
+}
+const home = () => {
+    window.location.href(index.html)
 }
